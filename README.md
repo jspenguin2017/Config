@@ -1,0 +1,2 @@
+# RenovateConfig
+Renovate configuration
