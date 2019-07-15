@@ -22,13 +22,10 @@
         ":semanticPrefixChore",
         ":unpublishSafe"
       ],
-      "labels": [
-        "renovate"
-      ],
       "recreateClosed": true,
       "rollbackPrs": true
     }
   },
   "repository": "https://github.com/jspenguin2017/RenovateConfig",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
