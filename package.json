@@ -14,6 +14,7 @@
   "renovate-config": {
     "default": {
       "bumpVersion": "patch",
+      "description": "Default Renovate configuration for my projects",
       "extends": [
         "config:base",
         ":automergePatch",
@@ -31,5 +32,5 @@
     }
   },
   "repository": "https://github.com/jspenguin2017/RenovateConfig",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
