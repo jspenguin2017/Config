@@ -1,0 +1,34 @@
+{
+  "author": "Hugo Xu",
+  "bugs": {
+    "url": "https://github.com/jspenguin2017/RenovateConfig/issues"
+  },
+  "description": "Configurations for Renovate",
+  "homepage": "https://github.com/jspenguin2017/RenovateConfig",
+  "license": "GPL-3.0",
+  "name": "hugoxu-renovate-config",
+  "renovate-config": {
+    "default": {
+      "bumpVersion": "patch",
+      "extends": [
+        "config:base",
+        ":automergePatch",
+        ":disableRateLimiting",
+        ":enableVulnerabilityAlerts",
+        ":includeNodeModules",
+        ":maintainLockFilesWeekly",
+        ":pinVersions",
+        ":rebaseStalePrs",
+        ":semanticPrefixChore",
+        ":unpublishSafe"
+      ],
+      "labels": [
+        "renovate"
+      ],
+      "recreateClosed": true,
+      "rollbackPrs": true
+    }
+  },
+  "repository": "https://github.com/jspenguin2017/RenovateConfig",
+  "version": "1.0.0"
+}
