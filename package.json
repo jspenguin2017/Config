@@ -5,6 +5,10 @@
   },
   "description": "Configurations for Renovate",
   "homepage": "https://github.com/jspenguin2017/RenovateConfig",
+  "keywords": [
+    "renovate",
+    "config"
+  ],
   "license": "GPL-3.0",
   "name": "hugoxu-renovate-config",
   "renovate-config": {
@@ -27,5 +31,5 @@
     }
   },
   "repository": "https://github.com/jspenguin2017/RenovateConfig",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
