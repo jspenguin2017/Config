@@ -16,6 +16,7 @@
       "bumpVersion": "patch",
       "extends": [
         "config:base",
+        ":assignee(jspenguin2017)",
         ":automergePatch",
         ":disableRateLimiting",
         ":enableVulnerabilityAlerts",
@@ -31,5 +32,5 @@
     }
   },
   "repository": "https://github.com/jspenguin2017/RenovateConfig",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
