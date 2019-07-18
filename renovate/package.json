@@ -1,10 +1,10 @@
 {
   "author": "Hugo Xu",
   "bugs": {
-    "url": "https://github.com/jspenguin2017/RenovateConfig/issues"
+    "url": "https://github.com/jspenguin2017/Config/issues"
   },
   "description": "Configurations for Renovate",
-  "homepage": "https://github.com/jspenguin2017/RenovateConfig",
+  "homepage": "https://github.com/jspenguin2017/Config",
   "keywords": [
     "renovate",
     "config"
@@ -31,6 +31,6 @@
       "rollbackPrs": true
     }
   },
-  "repository": "https://github.com/jspenguin2017/RenovateConfig",
-  "version": "1.0.2"
+  "repository": "https://github.com/jspenguin2017/Config",
+  "version": "1.0.3"
 }
