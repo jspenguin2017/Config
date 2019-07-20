@@ -24,14 +24,14 @@
         ":maintainLockFilesWeekly",
         ":pinVersions",
         ":rebaseStalePrs",
+        ":semanticCommits",
         ":semanticPrefixChore",
         ":unpublishSafe"
       ],
       "recreateClosed": true,
-      "rollbackPrs": true,
-      "semanticCommits": true
+      "rollbackPrs": true
     }
   },
   "repository": "https://github.com/jspenguin2017/Config",
-  "version": "1.0.4"
+  "version": "1.0.5"
 }
