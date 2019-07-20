@@ -28,9 +28,10 @@
         ":unpublishSafe"
       ],
       "recreateClosed": true,
-      "rollbackPrs": true
+      "rollbackPrs": true,
+      "semanticCommits": true
     }
   },
   "repository": "https://github.com/jspenguin2017/Config",
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
