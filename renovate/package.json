@@ -25,7 +25,7 @@
         ":pinVersions",
         ":rebaseStalePrs",
         ":semanticCommits",
-        ":semanticPrefixChore",
+        ":semanticCommitTypeAll(chore)",
         ":unpublishSafe"
       ],
       "recreateClosed": true,
@@ -33,5 +33,5 @@
     }
   },
   "repository": "https://github.com/jspenguin2017/Config",
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
