@@ -1,3 +1,3 @@
-# Renovate Config
+# Renovate Configuration
 
 Configurations for Renovate
