@@ -1,5 +1,6 @@
 {
   "debug.allowBreakpointsEverywhere": true,
+  "editor.rulers": [80, 120],
   "files.hotExit": "off",
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
