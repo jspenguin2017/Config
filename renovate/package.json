@@ -22,17 +22,20 @@
         ":disableRateLimiting",
         ":enableVulnerabilityAlerts",
         ":includeNodeModules",
-        ":maintainLockFilesWeekly",
         ":pinVersions",
         ":rebaseStalePrs",
         ":semanticCommits",
         ":semanticCommitTypeAll(chore)",
         ":unpublishSafe"
       ],
+      "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": null
+      },
       "recreateClosed": true,
       "rollbackPrs": true
     }
   },
   "repository": "https://github.com/jspenguin2017/Config",
-  "version": "1.0.7"
+  "version": "1.0.8"
 }
