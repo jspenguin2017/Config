@@ -16,17 +16,18 @@
       "assignAutomerge": true,
       "bumpVersion": "patch",
       "extends": [
-        "config:base",
         ":assignee(jspenguin2017)",
         ":automergePatch",
-        ":disableRateLimiting",
         ":enableVulnerabilityAlerts",
         ":includeNodeModules",
         ":pinVersions",
         ":rebaseStalePrs",
         ":semanticCommits",
-        ":semanticCommitTypeAll(chore)",
-        ":unpublishSafe"
+        ":semanticPrefixChore",
+        ":unpublishSafe",
+        "group:monorepos",
+        "group:recommended",
+        "helpers:disableTypesNodeMajor"
       ],
       "lockFileMaintenance": {
         "enabled": true,
@@ -37,5 +38,5 @@
     }
   },
   "repository": "https://github.com/jspenguin2017/Config",
-  "version": "1.0.8"
+  "version": "1.0.9"
 }
