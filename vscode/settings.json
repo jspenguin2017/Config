@@ -3,12 +3,13 @@
     "editor.wordWrap": "off"
   },
   "debug.allowBreakpointsEverywhere": true,
-  "editor.rulers": [80, 120],
+  "editor.rulers": [ 80, 120 ],
   "files.hotExit": "off",
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "telemetry.enableTelemetry": false,
   "window.restoreWindows": "none",
-  "workbench.colorTheme": "Quiet Light"
+  "workbench.colorTheme": "Quiet Light",
+  "workbench.tree.indent": 24
 }
