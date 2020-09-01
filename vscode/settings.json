@@ -1,4 +1,7 @@
 {
+  "[markdown]": {
+    "editor.wordWrap": "off"
+  },
   "debug.allowBreakpointsEverywhere": true,
   "editor.rulers": [80, 120],
   "files.hotExit": "off",
