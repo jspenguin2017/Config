@@ -8,6 +8,7 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
+  "html.format.wrapLineLength": 0,
   "telemetry.enableTelemetry": false,
   "window.restoreWindows": "none",
   "workbench.colorTheme": "Quiet Light",
