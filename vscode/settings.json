@@ -8,13 +8,11 @@
     "[Quiet Light]": {
       "textMateRules": [
         {
-          "name": "Diff: Header (From Solarized Light)",
+          "name": "Diff: Header (Color From Solarized Light)",
           "scope": [
-            "meta.diff",
             "meta.diff.header",
             "meta.diff.header.from-file",
             "meta.diff.header.to-file",
-            "meta.diff.index",
             "meta.diff.range",
             "punctuation.definition.from-file.diff",
             "punctuation.definition.range.diff",
@@ -26,7 +24,7 @@
           }
         },
         {
-          "name": "Diff: Deleted (From Solarized Light)",
+          "name": "Diff: Deleted (Color From Solarized Light)",
           "scope": [
             "markup.deleted",
             "punctuation.definition.deleted.diff"
@@ -36,7 +34,7 @@
           }
         },
         {
-          "name": "Diff: Inserted (From Solarized Light)",
+          "name": "Diff: Inserted (Color From Solarized Light)",
           "scope": [
             "markup.inserted",
             "punctuation.definition.inserted.diff"
