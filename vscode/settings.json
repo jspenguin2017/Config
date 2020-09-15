@@ -4,12 +4,53 @@
   },
   "debug.allowBreakpointsEverywhere": true,
   "editor.rulers": [ 80, 120 ],
+  "editor.tokenColorCustomizations": {
+    "[Quiet Light]": {
+      "textMateRules": [
+        {
+          "name": "diff: header",
+          "scope": [
+            "meta.diff",
+            "meta.diff.header"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            "foreground": "#268bd2"
+          }
+        },
+        {
+          "name": "diff: deleted",
+          "scope": "markup.deleted",
+          "settings": {
+            "fontStyle": "",
+            "foreground": "#dc322f"
+          }
+        },
+        {
+          "name": "diff: changed",
+          "scope": "markup.changed",
+          "settings": {
+            "fontStyle": "",
+            "foreground": "#cb4b16"
+          }
+        },
+        {
+          "name": "diff: inserted",
+          "scope": "markup.inserted",
+          "settings": {
+            "foreground": "#219186"
+          }
+        }
+      ]
+    }
+  },
   "files.hotExit": "off",
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "html.format.wrapLineLength": 0,
   "telemetry.enableTelemetry": false,
+  "terminal.integrated.shell.windows": "C:/Program Files/Git/bin/bash.exe",
   "window.restoreWindows": "none",
   "workbench.colorTheme": "Quiet Light",
   "workbench.tree.indent": 24
