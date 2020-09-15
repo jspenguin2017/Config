@@ -8,10 +8,17 @@
     "[Quiet Light]": {
       "textMateRules": [
         {
-          "name": "diff: header",
+          "name": "Diff: Header (From Solarized Light)",
           "scope": [
             "meta.diff",
-            "meta.diff.header"
+            "meta.diff.header",
+            "meta.diff.header.from-file",
+            "meta.diff.header.to-file",
+            "meta.diff.index",
+            "meta.diff.range",
+            "punctuation.definition.from-file.diff",
+            "punctuation.definition.range.diff",
+            "punctuation.definition.to-file.diff"
           ],
           "settings": {
             "fontStyle": "italic",
@@ -19,24 +26,21 @@
           }
         },
         {
-          "name": "diff: deleted",
-          "scope": "markup.deleted",
+          "name": "Diff: Deleted (From Solarized Light)",
+          "scope": [
+            "markup.deleted",
+            "punctuation.definition.deleted.diff"
+          ],
           "settings": {
-            "fontStyle": "",
             "foreground": "#dc322f"
           }
         },
         {
-          "name": "diff: changed",
-          "scope": "markup.changed",
-          "settings": {
-            "fontStyle": "",
-            "foreground": "#cb4b16"
-          }
-        },
-        {
-          "name": "diff: inserted",
-          "scope": "markup.inserted",
+          "name": "Diff: Inserted (From Solarized Light)",
+          "scope": [
+            "markup.inserted",
+            "punctuation.definition.inserted.diff"
+          ],
           "settings": {
             "foreground": "#219186"
           }
