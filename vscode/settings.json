@@ -3,7 +3,10 @@
     "editor.wordWrap": "off"
   },
   "debug.allowBreakpointsEverywhere": true,
-  "editor.rulers": [ 80, 120 ],
+  "editor.rulers": [
+    80,
+    120
+  ],
   "editor.tokenColorCustomizations": {
     "[Quiet Light]": {
       "textMateRules": [
@@ -20,6 +23,13 @@
           ],
           "settings": {
             "fontStyle": "italic",
+            "foreground": "#268bd2"
+          }
+        },
+        {
+          "name": "Diff: Only In (Color From Solarized Light)",
+          "scope": "meta.diff.only-in",
+          "settings": {
             "foreground": "#268bd2"
           }
         },
