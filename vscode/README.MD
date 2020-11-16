@@ -2,7 +2,7 @@
 
 Configurations for Visual Studio Code
 
-## Installed Extensions
+## Extensions
 
 ```
 $ code --list-extensions
