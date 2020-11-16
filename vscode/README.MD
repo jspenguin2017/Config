@@ -1,3 +1,16 @@
 # Visual Studio Code Configuration
 
 Configurations for Visual Studio Code
+
+## Installed Extensions
+
+```
+$ code --list-extensions
+DotJoshJohnson.xml
+ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
+ms-vscode-remote.remote-wsl
+ms-vscode-remote.vscode-remote-extensionpack
+streetsidesoftware.code-spell-checker
+```
