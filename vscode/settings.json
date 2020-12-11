@@ -3,55 +3,51 @@
     "editor.wordWrap": "off"
   },
   "debug.allowBreakpointsEverywhere": true,
+  "editor.renderWhitespace": "boundary",
   "editor.rulers": [
     80,
     120
   ],
+  "editor.stickyTabStops": true,
   "editor.suggest.showStatusBar": true,
   "editor.tokenColorCustomizations": {
     "[Quiet Light]": {
       "textMateRules": [
         {
-          "name": "Diff: Header (Color From Solarized Light)",
+          "name": "Diff: Header",
           "scope": [
-            "meta.diff.header",
-            "meta.diff.header.from-file",
-            "meta.diff.header.to-file",
-            "meta.diff.range",
-            "punctuation.definition.from-file.diff",
-            "punctuation.definition.range.diff",
-            "punctuation.definition.to-file.diff"
+            "meta.diff.header.command",
+            "meta.diff.range.unified",
+            "punctuation.definition.range.diff"
           ],
           "settings": {
-            "fontStyle": "italic",
-            "foreground": "#268bd2"
+            "foreground": "#4B69C6"
           }
         },
         {
-          "name": "Diff: Only In (Color From Solarized Light)",
+          "name": "Diff: Only In",
           "scope": "meta.diff.only-in",
           "settings": {
-            "foreground": "#268bd2"
+            "fontStyle": "italic",
+            "foreground": "#4B69C6"
           }
         },
         {
-          "name": "Diff: Deleted (Color From Solarized Light)",
+          "name": "Diff: Deleted",
           "scope": [
-            "markup.deleted",
             "punctuation.definition.deleted.diff"
           ],
           "settings": {
-            "foreground": "#dc322f"
+            "foreground": "#C73D20"
           }
         },
         {
-          "name": "Diff: Inserted (Color From Solarized Light)",
+          "name": "Diff: Inserted",
           "scope": [
-            "markup.inserted",
             "punctuation.definition.inserted.diff"
           ],
           "settings": {
-            "foreground": "#219186"
+            "foreground": "#448C27"
           }
         }
       ]
