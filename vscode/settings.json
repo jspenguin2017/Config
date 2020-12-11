@@ -34,18 +34,14 @@
         },
         {
           "name": "Diff: Deleted",
-          "scope": [
-            "punctuation.definition.deleted.diff"
-          ],
+          "scope": "punctuation.definition.deleted.diff",
           "settings": {
             "foreground": "#C73D20"
           }
         },
         {
           "name": "Diff: Inserted",
-          "scope": [
-            "punctuation.definition.inserted.diff"
-          ],
+          "scope": "punctuation.definition.inserted.diff",
           "settings": {
             "foreground": "#448C27"
           }
