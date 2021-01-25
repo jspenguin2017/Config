@@ -2,6 +2,9 @@
   "[markdown]": {
     "editor.wordWrap": "off"
   },
+  "cSpell.enableFiletypes": [
+    "lisp"
+  ],
   "debug.allowBreakpointsEverywhere": true,
   "editor.renderWhitespace": "boundary",
   "editor.rulers": [
