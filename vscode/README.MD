@@ -8,6 +8,8 @@ Configurations for Visual Studio Code
 $ code --list-extensions
 DotJoshJohnson.xml
 mattn.Lisp
+ms-python.python
+ms-toolsai.jupyter
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
