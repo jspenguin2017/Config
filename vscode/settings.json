@@ -61,5 +61,6 @@
   "terminal.integrated.shell.windows": "C:/Program Files/Git/bin/bash.exe",
   "window.restoreWindows": "none",
   "workbench.colorTheme": "Quiet Light",
+  "workbench.editor.wrapTabs": true,
   "workbench.tree.indent": 24
 }
