@@ -6,6 +6,7 @@
     "lisp"
   ],
   "debug.allowBreakpointsEverywhere": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.renderWhitespace": "boundary",
   "editor.rulers": [
     80,
