@@ -15,5 +15,6 @@ ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode-remote.remote-wsl
 ms-vscode-remote.vscode-remote-extensionpack
+ms-vscode.cpptools
 streetsidesoftware.code-spell-checker
 ```
