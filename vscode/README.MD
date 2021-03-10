@@ -16,5 +16,6 @@ ms-vscode-remote.remote-ssh-edit
 ms-vscode-remote.remote-wsl
 ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.cpptools
+rebornix.prolog
 streetsidesoftware.code-spell-checker
 ```
