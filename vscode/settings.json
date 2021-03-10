@@ -3,7 +3,8 @@
     "editor.wordWrap": "off"
   },
   "cSpell.enableFiletypes": [
-    "lisp"
+    "lisp",
+    "prolog"
   ],
   "debug.allowBreakpointsEverywhere": true,
   "diffEditor.ignoreTrimWhitespace": false,
