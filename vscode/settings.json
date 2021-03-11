@@ -54,6 +54,9 @@
       ]
     }
   },
+  "files.associations": {
+    "*.pl": "prolog"
+  },
   "files.hotExit": "off",
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
