@@ -55,6 +55,7 @@
     }
   },
   "files.associations": {
+    "*.lp": "prolog",
     "*.pl": "prolog"
   },
   "files.hotExit": "off",
