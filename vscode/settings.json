@@ -3,8 +3,10 @@
     "editor.wordWrap": "off"
   },
   "cSpell.enableFiletypes": [
+    "ignore",
     "lisp",
-    "prolog"
+    "prolog",
+    "shellscript"
   ],
   "debug.allowBreakpointsEverywhere": true,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -64,7 +66,7 @@
   "git.autofetch": true,
   "html.format.wrapLineLength": 0,
   "telemetry.enableTelemetry": false,
-  "terminal.integrated.shell.windows": "C:/Program Files/Git/bin/bash.exe",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "window.restoreWindows": "none",
   "workbench.colorTheme": "Quiet Light",
   "workbench.editor.wrapTabs": true,
